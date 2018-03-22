@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	width:35%;
+	margin:auto;
+	
+    overflow: hidden;
+    background-color: #333;
+}
+caption{
+font-family:arial;
+font-style:solid bold;
+color:RED;
+	
+}
+li {
+    float: left;
+	margin-right:2%;
+	margin-left:2%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	
+}
+
+li a:hover {
+    background-color: #111;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+	margin-top:2%;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+.myButton {
+	-moz-box-shadow: 3px 4px 0px 0px #899599;
+	-webkit-box-shadow: 3px 4px 0px 0px #899599;
+	box-shadow: 3px 4px 0px 0px #899599;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #bab1ba));
+	background:-moz-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:-webkit-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:-o-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:-ms-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#bab1ba',GradientType=0);
+	background-color:#ededed;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+	margin-top:2%;
+	margin-left:45%;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bab1ba), color-stop(1, #ededed));
+	background:-moz-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-webkit-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-o-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-ms-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bab1ba', endColorstr='#ededed',GradientType=0);
+	background-color:#bab1ba;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+	</style>
+</head>
+<body >
+	<ul>
+	  <li><a class="active" href="#Donors">Donors</a></li>
+	  <li><a href="#alld">All Donors</a></li>
+	  <li><a href="#calendar">calendar</a></li>
+	  <li><a href="#about">About</a></li>
+	</ul>
+	<table style="width:100%">
+  <caption>Donors </caption>
+  <tr>
+    <th>Name</th>
+    <th>ID</th>
+	<th>E-mail</th>
+	<th>Tel</th>
+	<th>Date of Donating</th>
+	<th>Amount</th>
+
+  </tr>
+  <tr>
+    <td>omar</td>
+    <td>987654321</td>
+	<td>omar.b__95@hotmail.com</td>
+    <td>0543982781</td>
+	<td>march</td>
+    <td>$1500</td>
+  </tr>
+  <tr>
+    <td>montaser</td>
+    <td>123456789</td>
+	<td>montasser@hotmail.com</td>
+    <td>0543982781</td>
+	<td>march</td>
+    <td>-$1500 (7arame)</td>
+  </tr>
+</table>
+	<a href="NewDonor.html" class="myButton">New Donor</a>
+	
+	
+</body>
